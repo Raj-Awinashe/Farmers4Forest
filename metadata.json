@@ -1,0 +1,5 @@
+{
+  "name": "Sat Bara Data Extractor",
+  "description": "A web application to extract data from Sat Bara (7/12 land record) documents using AI and store it in a simulated local database.",
+  "requestFramePermissions": []
+}

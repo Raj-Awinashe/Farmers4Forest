@@ -1,0 +1,20 @@
+
+body {
+  font-family: 'Inter', sans-serif; /* A nice sans-serif font */
+}
+
+/* Custom scrollbar for a more desktop-app feel */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
