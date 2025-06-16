@@ -1,4 +1,3 @@
-
 export const OLLAMA_MODEL_NAME = 'gemma3:27b'; // Updated model name
 export const LOCAL_STORAGE_KEY = 'satBaraDatabaseRecords';
 export const OLLAMA_API_URL = 'http://localhost:11434/api/generate';
@@ -17,7 +16,7 @@ The JSON object should adhere to the following structure:
   "totalLandArea": {
     "hectare": "number | null",
     "r": "number | null",
-    "sqMeter": "number | null"
+    "sqMeter": "number | null" // Always included, use null if not available
   } | null,
   "landRevenue": "string | number | null", // Use string if currency symbols or non-numeric chars are present, otherwise number
   "occupantDetails": [
