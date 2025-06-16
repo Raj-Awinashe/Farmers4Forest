@@ -1,8 +1,7 @@
-
 export interface SatBaraLandArea {
   hectare: number | null;
   r: number | null;
-  sqMeter?: number | null; // Optional
+  sqMeter: number | null; // Not optional for consistency with extraction prompt
 }
 
 export interface OccupantDetail {
